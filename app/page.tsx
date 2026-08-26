@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 const popularDogs = ["golden-retriever", "labrador-retriever", "french-bulldog", "german-shepherd", "poodle", "beagle", "dachshund", "siberian-husky", "pembroke-welsh-corgi", "chihuahua", "pug", "border-collie"];
 const popularCats = ["ragdoll", "maine-coon", "british-shorthair", "siamese", "persian", "bengal", "sphynx", "scottish-fold", "russian-blue", "american-shorthair", "siberian", "domestic-shorthair"];
 
-export default function Home() {
+export default function Page() {
   const dogLinks = dogBreeds.filter((breed) => popularDogs.includes(breed.slug));
   const catLinks = catBreeds.filter((breed) => popularCats.includes(breed.slug));
 
