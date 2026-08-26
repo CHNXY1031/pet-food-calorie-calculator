@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 import { catBreeds, dogBreeds } from "@/lib/petData";
 
-const BASE_URL = "https://pet-food-calorie-calculator.vercel.app";
+const BASE_URL = 'https://pet-food-calorie-calculator.vercel.app';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
