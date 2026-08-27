@@ -80,6 +80,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
               <p className="font-extrabold text-sage">Method</p>
               <p className="mt-3 leading-6">RER = 70 × kg<sup>0.75</sup>. Daily MER applies life-stage and activity multipliers commonly used in veterinary nutrition.</p>
               <p className="mt-4 text-xs text-white/40">© {new Date().getFullYear()} PetFuel Calculator</p>
+              <a href="https://uptime-pulse-saas.vercel.app/?utm_source=pet-food-calorie-calculator&amp;utm_medium=referral&amp;utm_campaign=protected_by" target="_blank" rel="noopener noreferrer" className="mt-3 block text-xs text-white/35 underline decoration-white/15 underline-offset-4 transition hover:text-sage">Protected by UptimePulse — Free Website &amp; SSL Monitor</a>
             </div>
           </div>
         </footer>
